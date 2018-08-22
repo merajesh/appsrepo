@@ -10,14 +10,14 @@
 </head>
 <body>
 	<div align="center">
-		<h1>CMS Employee List</h1>
+		<h1>Employee List</h1>
 		
 		<table border="1">
 
 			<th>Name</th>
 			<th>Email</th>
 			<th>Address</th>
-			<th>Telephone</th>
+			<th>Contact</th>
 			<th>Action</th>
 
 			<c:forEach var="employee" items="${listEmployee}">
